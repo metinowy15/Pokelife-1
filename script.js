@@ -49,8 +49,8 @@ setTimeout(function(){click();}, 100);
                 window.auto = false;
                 $('#goAutoButton').html('AutoGO');
             } else if($('.dzikipokemon-background-normalny').length == 1){
-                console.log('wybieram pokemona 1');
-		$('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&wybierz_pokemona=0"]').trigger('click');
+                console.log('wybieram pokemona 4');
+		$('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&wybierz_pokemona=3"]').trigger('click');
             } else if ($('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=greatballe"]').length == 1){
                 
 		if($('#use-nightball').val()){
