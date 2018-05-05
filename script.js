@@ -51,7 +51,7 @@ setTimeout(function(){click();}, 100);
             } else if($('.dzikipokemon-background-normalny').length == 1){
                 console.log('wybieram pokemona 4');
 		$('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&wybierz_pokemona=3"]').trigger('click');
-            } else if ($('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=greatballe"]').length == 1){
+            } else if ($('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=pokeballe"]').length == 1){
                 
 		if($('#use-nightball').val()){
 		  var d = new Date();
@@ -60,11 +60,11 @@ if(h > 22 || h < 6){
 		$('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=nightballe"]').trigger('click');
 console.log('rzucam nightballa');
 } else {
-$('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=greatballe"]').trigger('click');
+$('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=pokeballe"]').trigger('click');
 console.log('rzucam greatballa');
 }
 } else {
-                $('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=greatballe"]').trigger('click');
+                $('button[href="dzicz.php?miejsce='+iconSelect.getSelectedValue()+'&zlap_pokemona=pokeballe"]').trigger('click');
 console.log('rzucam greatballa');
 }
             } else {
